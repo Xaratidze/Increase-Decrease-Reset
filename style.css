@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://w.forfun.com/fetch/9f/9f2d0e3840ab815c6807d791aa58eb68.jpeg);
+    background-size: cover;
+
+
+}
+.container {
+    text-align: center;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 0px 20px 5px black;
+}
+.container h1 {
+    color: rgb(184, 184, 184);
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+.container .btns button {
+    padding: 10px 10px;
+    width: 300px;
+    background-color: none;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgb(184, 184, 184);
+    box-shadow: 0 0 10px 1px blue;
+    transition: 0.3s all ease;
+}
+.container .btns button:hover {
+    box-shadow: 0 0 20px 5px blue;
+}
+.container .btns .plus {
+    transition: 0.3s all ease;
+}
+.container .btns .plus:hover {
+    color: rgb(0, 213, 0);
+}
+.container .btns .minus {
+    transition: 0.3s all ease;
+}
+.container .btns .minus:hover {
+    color: red;
+}
+.container .btns .rst {
+    transition: 0.3s all ease;
+}
+.container .btns .rst:hover {
+    color: blue;
+}
+
+
